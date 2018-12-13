@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="5dp"
+    tools:context="com.fortech.protalendeavours.fortech.AddProjectActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/NewAppTheme"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp">
+
+                <TextView
+                    android:id="@+id/project_title1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerInParent="true"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:text="@string/createProject"
+                    android:textColor="@color/cardview_light_background"
+                    android:textSize="24sp" />
+
+            </RelativeLayout>
+
+            <EditText
+                android:id="@+id/newProjName"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="40dp"
+                android:ems="10"
+                android:hint="@string/project_name"
+                android:inputType="textPersonName" />
+
+
+            <EditText
+                android:id="@+id/newProjDomain"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:hint="@string/project_domain"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/member1"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:hint="@string/member_1"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/member2"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:hint="@string/member_2"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/member3"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:hint="@string/member_3"
+                android:inputType="textPersonName" />
+
+
+            <EditText
+                android:id="@+id/member4"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:hint="@string/member_4"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/member5"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:hint="@string/member_5_optional"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/isYourProject"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/is_your_project"
+                android:textSize="18sp" />
+
+            <CheckedTextView
+                android:id="@+id/sponsored"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="20dp"
+                android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+                android:checked="false"
+                android:text="Sponsored"
+                android:textSize="18sp" />
+
+            <CheckedTextView
+                android:id="@+id/inHouse"
+                android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="20dp"
+                android:checked="true"
+                android:text="In House"
+                android:textSize="18sp" />
+
+            <CheckedTextView
+                android:id="@+id/social"
+                android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="20dp"
+                android:checked="false"
+                android:textSize="18sp"
+                android:text="Social" />
+
+            <CheckedTextView
+                android:id="@+id/interDis"
+                android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="20dp"
+                android:textSize="18sp"
+                android:checked="false"
+                android:text="Interdisciplinary" />
+
+            <Button
+                android:id="@+id/addYourProject"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="110dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/NewAppTheme"
+                android:text="Add Your Project" />
+
+        </LinearLayout>
+
+    </ScrollView>
+</android.widget.RelativeLayout>

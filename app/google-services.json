@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "426698653671",
+    "firebase_url": "https://fortech-c021b.firebaseio.com",
+    "project_id": "fortech-c021b",
+    "storage_bucket": "fortech-c021b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:426698653671:android:ba23482140ed37e7",
+        "android_client_info": {
+          "package_name": "com.fortech.protalendeavours.fortech"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "426698653671-meamadc2sf0gu5r8c29ok2256ji86ir5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fortech.protalendeavours.fortech",
+            "certificate_hash": "7673282ae985a3ad88eed05346604e7d0db00101"
+          }
+        },
+        {
+          "client_id": "426698653671-kt0hrs43o7lg2etqlv3valf0e2pfhgpd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fortech.protalendeavours.fortech",
+            "certificate_hash": "1dfc820bbac53cb8c696a283aa3b634891c1cbcf"
+          }
+        },
+        {
+          "client_id": "426698653671-ctpvfpvbbj64movg4vff3lrlh3p19p8r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-4gdj58ROi2iCNJCkLr6OzgcYfjFnJ3U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "426698653671-8oc5blofbtdrbtv2mjh19dt1gt35g131.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
